@@ -26,3 +26,5 @@ Each minimum spanning tree has exactly $$N-1$$ edges and achieves the minimum po
 - Prefer Kruskal for sparse graphs and edge-list representations, as the global sort coupled with efficient Union-Find tends to be simple to implement and fast when $$M$$ is close to $$N$$.
 - Prefer Prim for dense graphs and adjacency-list/matrix representations, where maintaining a frontier with a binary heap can be advantageous as $$M$$ approaches $$N^2$$.
 - The measured operation counts increase monotonically across your five cases as graph size grows, which aligns with expectations from sorting more edges and performing more find/union operations in Kruskal.
+
+[Link to GitHub Repo](https://github.com/NikAlexan/assignment-3)
