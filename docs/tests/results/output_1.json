@@ -1,0 +1,31 @@
+{
+  "results" : [ {
+    "graph_id" : 1,
+    "input_stats" : {
+      "edges" : 9,
+      "vertices" : 5
+    },
+    "kruskal" : {
+      "execution_time_ms" : 0.26,
+      "mst_edges" : [ {
+        "from" : "D",
+        "to" : "E",
+        "weight" : 1
+      }, {
+        "from" : "B",
+        "to" : "C",
+        "weight" : 2
+      }, {
+        "from" : "A",
+        "to" : "C",
+        "weight" : 3
+      }, {
+        "from" : "C",
+        "to" : "E",
+        "weight" : 4
+      } ],
+      "operations_count" : 34,
+      "total_cost" : 10
+    }
+  } ]
+}
