@@ -10,8 +10,8 @@ import static com.nikitavassilenko.assignment3.algorithms.Kruskal.runKruskal;
 
 public class Main {
     public static void main(String[] args) {
-        String inPath = args.length >= 1 ? args[0] : "/home/nikalexan/IdeaProjects/nikitavassilenko.assignment3/docs/result/input_example.json";
-        String outPath = args.length >= 2 ? args[1] : "/home/nikalexan/IdeaProjects/nikitavassilenko.assignment3/docs/result/kruskal_output.json";
+        String inPath = args.length >= 1 ? args[0] : "/home/nikalexan/IdeaProjects/nikitavassilenko.assignment3/docs/tests/inputs/input_5.json";
+        String outPath = args.length >= 2 ? args[1] : "/home/nikalexan/IdeaProjects/nikitavassilenko.assignment3/docs/tests/results/output_5.json";
 
         ObjectMapper om = new ObjectMapper();
 

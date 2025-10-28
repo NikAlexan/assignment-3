@@ -1,0 +1,47 @@
+{
+  "results" : [ {
+    "graph_id" : 1,
+    "input_stats" : {
+      "edges" : 15,
+      "vertices" : 9
+    },
+    "kruskal" : {
+      "execution_time_ms" : 0.19,
+      "mst_edges" : [ {
+        "from" : "G",
+        "to" : "H",
+        "weight" : 1
+      }, {
+        "from" : "A",
+        "to" : "B",
+        "weight" : 2
+      }, {
+        "from" : "C",
+        "to" : "F",
+        "weight" : 2
+      }, {
+        "from" : "B",
+        "to" : "E",
+        "weight" : 3
+      }, {
+        "from" : "H",
+        "to" : "I",
+        "weight" : 3
+      }, {
+        "from" : "B",
+        "to" : "C",
+        "weight" : 4
+      }, {
+        "from" : "F",
+        "to" : "G",
+        "weight" : 4
+      }, {
+        "from" : "C",
+        "to" : "D",
+        "weight" : 5
+      } ],
+      "operations_count" : 73,
+      "total_cost" : 24
+    }
+  } ]
+}
